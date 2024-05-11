@@ -1,0 +1,85 @@
+header{
+    text-align: center;
+    border-bottom: 2px solid rgb(65, 63, 63); 
+}
+.tete{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.tete a{
+    color: dimgray;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.bordure{
+    border-bottom: 2px solid rgb(65, 63, 63);
+    margin-top: 30px; 
+}
+h1{
+    text-align: center;
+    color: rgba(27, 0, 182, 0.866);
+    font-style: normal;
+    font-family:'Courier New', Courier, monospace;
+}
+.ser{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.ser img{
+    width: 600px;
+    height: 500px;
+}
+.t{
+font-family: 'Anek Bangla';
+font-style: normal;
+font-size: 20px;
+text-align: center;
+color: #010000;
+}
+.prix{
+    color: rgb(205, 6, 6);
+    font-size:40px;
+
+}
+.pr{
+    font-size: 30px;
+    text-decoration: solid;
+    text-decoration: line-through;
+}
+.add-to-cart {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-to-cart input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.add-to-cart button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart button:hover {
+    background-color: #45a049;
+}
+.incrementQuantity button{
+    background-color: aliceblue;
+}
+.quantite button{
+    background-color: #ccc;
+}
+

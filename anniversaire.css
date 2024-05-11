@@ -1,0 +1,90 @@
+header{
+    text-align: center;
+    border-bottom: 2px solid  rgb(65, 63, 63); 
+}
+.tete{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 40px ;
+}
+.tete a{
+  color: dimgray;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+.bordure{
+    border-bottom: 2px solid  rgb(65, 63, 63);
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ae0a0a;
+}
+#image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #11a955;
+}
+
+button[type="submit"] {
+    background-color: #11a955;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #11a955;
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}

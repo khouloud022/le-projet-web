@@ -1,0 +1,81 @@
+header{
+    text-align: center;
+    border-bottom: 2px solid rgb(65, 63, 63); 
+}
+.tete{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.tete a{
+    color: dimgray;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.bordure{
+    border-bottom: 2px solid rgb(65, 63, 63);
+    margin-top: 20px; 
+}
+.text{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.titre{
+    font-style: oblique;
+    color: rgb(99, 6, 99);
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.aa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.aa img{
+    width: 400px;
+    margin-top: 80px;
+}
+.po img{ 
+    width: 320px;
+    margin-right:10px ;
+}
+.pa img{
+    width: 405px;
+    
+
+}
+.hh img{
+    width: 388px;
+}
+.pas img{
+    margin-right: 150px;
+}
+.sty img{
+    margin-left:150px;
+}
+.aa figcaption{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.oo{
+    margin-right: 120px;
+}
+.depl{
+    margin-left: 135px;}
+.inscrit{
+    color: crimson;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-style: oblique;
+}
+footer{ 
+    text-align: center;
+}

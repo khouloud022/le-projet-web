@@ -1,0 +1,127 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header{
+    text-align: center;
+    border-bottom: 2px solid rgb(65, 63, 63); 
+}
+.tete{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.tete a{
+  color: dimgray;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+.bordure{
+    border-bottom: 2px solid rgb(65, 63, 63);
+    margin-top: 30px; 
+}
+.pr img{
+height: 400px;
+width: 400px;
+}
+.pa img{
+    height: 40px;
+    width: 40px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+#catalogue {
+    margin-bottom: 20px;
+}
+#catalogue img {
+    width: 900px; 
+    height: 400px;
+    text-align: center;
+}
+
+
+.produit {
+    border: 1px solid #ccc;
+    padding: 80px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.produit h3 {
+    margin-top: 10px;
+}
+
+.produit p {
+    margin-top: 5px;
+}
+
+.produit button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.produit button:hover {
+    background-color: #45a049;
+}
+.ps{
+    display:flex;
+    justify-content: space-around;
+}
+.reclamationForm 
+{
+    margin-top: 20px;
+}
+.reclamationForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+.reclamationForm input[type="text"],
+.reclamationForm input[type="email"],
+.reclamationForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.reclamationForm button[type="submit"] {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.reclamationForm button[type="submit"]:hover {
+    background-color: #d32f2f;
+}
+.reclamation{
+    border: 1px solid #ccc;
+    padding: 200px;
+    margin-bottom: 20px;
+    width: 200px;
+    margin-right: 20px;
+}
